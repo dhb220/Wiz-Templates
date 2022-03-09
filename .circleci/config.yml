@@ -20,7 +20,7 @@ jobs:
           name: Download wizcli
           command: |
             sudo mkdir -p /wizcli
-            sudo curl -o wizcli https://wizcli.app.wiz.io/wizcli
+            sudo curl -o wizcli https://wizcli.demo.wiz.io/wizcli
             sudo chmod +x /wizcli/wizcli
       # Log the scan time
       - run: date +%F > date
